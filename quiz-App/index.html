@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="quiz-modal">
+      <div class="quiz-options">
+        <div class="quiz-question">
+          <p>which IIM you want to get in?</p>
+        </div>
+        <div class="quiz-answers">
+          <ul>
+            <li>
+              <input type="radio" id="option-a" name="answer" />
+              <label for="A">IIM Ahmadabad</label>
+            </li>
+            <li>
+              <input type="radio" id="option-b" name="answer" />
+              <label for="B">IIM Banglore</label>
+            </li>
+            <li>
+              <input type="radio" id="option-c" name="answer" />
+              <label for="C">IIM Calcutta</label>
+            </li>
+            <li>
+              <input type="radio" id="option-d" name="answer" />
+              <label for="D">IIT Kozikade</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="quiz-submit">Submit</button>
+    </div>
+  </body>
 </html>
