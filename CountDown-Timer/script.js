@@ -1,5 +1,5 @@
 window.onload = function () {
-  const endDate = new Date("1 jan 2024");
+  const endDate = new Date("2023-12-31T23:59:59");
   const countdownContainer = document.querySelector(".countdown-container");
 
   function countdown() {
