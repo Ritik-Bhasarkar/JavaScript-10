@@ -5,36 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    
   </head>
   <body>
     <div class="quiz-modal">
       <div class="quiz-options">
         <div class="quiz-question">
-          <p>which IIM you want to get in?</p>
+          <h2 class="que-header">which IIM you want to get in?</h2>
         </div>
         <div class="quiz-answers">
           <ul>
             <li>
               <input type="radio" id="option-a" name="answer" />
-              <label for="A">IIM Ahmadabad</label>
+              <label id = "a-text"
+              for="option-a">IIM Ahmadabad</label>
             </li>
             <li>
               <input type="radio" id="option-b" name="answer" />
-              <label for="B">IIM Banglore</label>
+              <label id = "b-text" for="option-b">IIM Banglore</label>
             </li>
             <li>
               <input type="radio" id="option-c" name="answer" />
-              <label for="C">IIM Calcutta</label>
+              <label id = "c-text" for="option-c">IIM Calcutta</label>
             </li>
             <li>
               <input type="radio" id="option-d" name="answer" />
-              <label for="D">IIT Kozikade</label>
+              <label id = "d-text" for="option-d">IIT Kozikade</label>
             </li>
           </ul>
         </div>
       </div>
       <button class="quiz-submit">Submit</button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

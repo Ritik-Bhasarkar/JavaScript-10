@@ -13,27 +13,21 @@ body{
 }
 
 .quiz-modal{
-    border: 2px solid #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
     width: 450px;
     min-height: 200px;
     background-color: white;
-    font-size: 1.3rem;
     outline: none;
+    overflow: hidden;
 }
 
 .quiz-options{
-    margin: 2rem; 
+    padding: 4rem 2rem 3rem; 
 }
 
 .quiz-question{
-    font-size: 1.3rem;
     margin-bottom: 1rem;
-}
-
-.quiz-answers>label{
-    
 }
 
 .quiz-answers > ul{
@@ -43,14 +37,23 @@ body{
 
 .quiz-submit{
     background-color: hsl(282, 44%, 47%);
+    color: white;
+    padding: 1rem;
     display: block;
     width: 100%;
-    padding: 1rem;
-    color: white;
     font-size: 1.1rem;
     border: none;
 }
 
 .quiz-submit:hover{
     background-color: hsl(282, 44%, 40%);
+}
+
+ul li{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+ul li label {
+    cursor:pointer
 }
